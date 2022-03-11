@@ -1,3 +1,12 @@
+"""
+    @Author: Mayank Anand
+    @Date: 2022-03-10
+    @Last Modified by: Mayank Anand
+    @Last Modified time: 2022-03-11
+    @Title : Basic Python Data Structure Programs
+    """
+
+
 def main():
     try:
         color_list = ["Red", "Green", "White", "Black"]

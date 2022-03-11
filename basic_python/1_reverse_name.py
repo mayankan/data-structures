@@ -1,3 +1,12 @@
+"""
+    @Author: Mayank Anand
+    @Date: 2022-03-10
+    @Last Modified by: Mayank Anand
+    @Last Modified time: 2022-03-11
+    @Title : Basic Python Data Structure Programs
+    """
+
+
 def reverse_name(_f_name, _l_name):
     """
     Returns last name and first name separated by space.

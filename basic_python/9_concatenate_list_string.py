@@ -1,3 +1,12 @@
+"""
+    @Author: Mayank Anand
+    @Date: 2022-03-11
+    @Last Modified by: Mayank Anand
+    @Last Modified time: 2022-03-11
+    @Title : Basic Python Data Structure Programs
+    """
+
+
 def concatenate_string(list_vals):
     """
     Returns string after concatenation of elements from given list.
