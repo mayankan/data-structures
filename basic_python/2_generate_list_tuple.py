@@ -3,13 +3,14 @@
     @Date: 2022-03-10
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-11
-    @Title : Basic Python Data Structure Programs
+    @Title : Basic Python Data Structure Programs -
     """
 
 
 def gen_list_tuple(_numbers):
     """
-    Returns List and Tuple for the numbers passed in parameter string separated by comma.
+    Description:
+        Returns List and Tuple for the numbers passed in parameter string separated by comma.
     Parameter:
         String containing numbers separated by comma.
     Return:

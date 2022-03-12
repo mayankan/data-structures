@@ -3,13 +3,14 @@
     @Date: 2022-03-10
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-11
-    @Title : Basic Python Data Structure Programs
+    @Title : Basic Python Data Structure Programs - Reverse First Name & Last Name
     """
 
 
 def reverse_name(_f_name, _l_name):
     """
-    Returns last name and first name separated by space.
+    Description:
+        Returns last name and first name separated by space.
     Parameters:
         _f_name: First name input by user.
         _l_name: Last name input by user.
