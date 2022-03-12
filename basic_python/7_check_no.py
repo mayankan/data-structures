@@ -3,13 +3,14 @@
     @Date: 2022-03-11
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-11
-    @Title : Basic Python Data Structure Programs
+    @Title : Basic Python Data Structure Programs - Check input number in list
     """
 
 
 def check_no_list(list_nos, search_no):
     """
-    Checks if search_no is present in tuple_nos or not.
+    Description:
+        Checks if search_no is present in tuple_nos or not.
     Parameters:
         list_nos: Number values in List to be searched in.
         search_no: Number to be searched in tuple_nos.
