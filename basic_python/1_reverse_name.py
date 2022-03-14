@@ -27,6 +27,7 @@ def main():
     try:
         f_name = input("Enter your first name: ")
         l_name = input("Enter your last name: ")
+        print("Printing Last Name and First Name:")
         print(reverse_name(f_name, l_name))
     except Exception as e:
         print("{} is raised.".format(e))

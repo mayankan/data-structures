@@ -32,7 +32,7 @@ def main():
         for no in range(no_of_values):
             input_str = str(input("Enter {} value: ".format(no + 1)))
             list_vals.append(input_str)
-        print(concatenate_string(list_vals))
+        print("The concatenated string is:", concatenate_string(list_vals))
     except Exception as e:
         print("{} is raised.".format(e))
 
