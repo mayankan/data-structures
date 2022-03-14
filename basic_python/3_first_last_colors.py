@@ -10,8 +10,8 @@
 def main():
     try:
         color_list = ["Red", "Green", "White", "Black"]
-        print("First Color", color_list[0])
-        print("Last Color", color_list[-1])
+        print("First Color:", color_list[0])
+        print("Last Color:", color_list[-1])
     except Exception as e:
         print("{} is raised.".format(e))
 
