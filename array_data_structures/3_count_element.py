@@ -45,7 +45,7 @@ def print_array(array_5_elements):
 
 def main():
     try:
-        array_5_elements = array.array('i', [1, 3, 4, 3, 2, 5])
+        array_5_elements = array.array('i', [1, 3, 4, 3, 2, 5, 6, 4, 3, 2])
         print_array(array_5_elements)
         occurrence_val = int(input("Enter the element in the above array to check number of occurrences: "))
         no_of_occurrences = check_occurrence(array_5_elements, occurrence_val)

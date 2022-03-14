@@ -43,7 +43,7 @@ def print_array(array_5_elements):
 
 def main():
     try:
-        array_5_elements = array.array('i', [1, 3, 4, 3, 2, 5])
+        array_5_elements = array.array('i', [1, 3, 4, 3, 2, 5, 6, 4, 3, 2])
         print_array(array_5_elements)
         element_remove = int(input("Enter the element in the above array to be removed: "))
         remove_element_array(array_5_elements, element_remove)
