@@ -59,9 +59,11 @@ def print_array(array_5_elements):
 def main():
     try:
         array_5_elements = array.array('i', [1, 3, 4, 2, 5])
-        reverse_array(array_5_elements)
-        print("Reversed array is: ")
-        print_array(array_5_elements)
+        # reverse_array(array_5_elements)
+        # print("Reversed array is: ")
+        # print_array(array_5_elements)
+        print("Reversing the array using slicing: ")
+        print(reverse_array_slicing(array_5_elements))
     except Exception as e:
         print("{} is raised.".format(e))
 
