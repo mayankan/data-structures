@@ -7,10 +7,22 @@
     """
 
 
-def main():
-    set1 = {3, 5, 7, 9}
+def iterate_set(set1):
+    """
+    Description:
+        Iterates each member of set and prints it.
+    Parameter:
+        set1: set to be iterated.
+    Return:
+        None
+    """
     for value in set1:
         print(value)
+
+
+def main():
+    set1 = {3, 5, 7, 9}
+    iterate_set(set1)
 
 
 if __name__ == "__main__":
