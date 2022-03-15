@@ -7,9 +7,23 @@
     """
 
 
-def main():
+def create_set():
+    """
+    Description:
+        Creates set using set function and curly braces {}.
+    Return:
+        set with random values.
+    """
+    # Method 1
+    set1 = set()
     set1 = {3, 5, 7, 9}
-    print("\n Set:", set1)
+    # Method 2
+    return set1
+
+
+def main():
+    set1 = create_set()
+    print("Set:", set1)
 
 
 if __name__ == "__main__":
