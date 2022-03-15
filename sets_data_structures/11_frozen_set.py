@@ -9,8 +9,11 @@
 
 def main():
     try:
-        set1 = (3, 5, 7, 9, 11, 13, 15, 17, 19)
-        print("Frozen Set: ", frozenset(set1))
+        set1 = {3, 5, 7, 9, 11, 13, 15, 17, 19}
+        f_set1 = frozenset(set1)
+        print("Frozen Set: ", f_set1)
+        # Immutable
+        f_set1.add(2)  # throws an error
     except Exception as e:
         print("{} is raised".format(e))
 
