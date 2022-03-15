@@ -27,7 +27,7 @@ def main():
     try:
         num_list = [1, 2, 3, 4]
         derived_dict = list_to_dict(num_list)
-        print("Nested Dictionary from given list is:",derived_dict)
+        print("Nested Dictionary from given list is:", derived_dict)
     except Exception as e:
         print("{} is raised".format(e))
 
