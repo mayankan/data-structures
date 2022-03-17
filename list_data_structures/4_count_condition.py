@@ -6,7 +6,6 @@
     @Title : List Data Structure Programs - Count of elements in list
     which have same first and last character
     """
-import logging
 
 
 def count_matches(given_list):
@@ -25,18 +24,16 @@ def count_matches(given_list):
                 count += 1
         return count
     except Exception as e:
-        logging.exception("{} is raised".format(e))
+        print("{} is raised".format(e))
 
 
 def main():
     try:
-        logging.info("Main function of Count of elements in list program started successfully.")
         list1 = ['abc', 'xyz', 'aba', '1221']
         print("List:", list1)
         print("Count of Elements with same first and last characters:", count_matches(list1))
-        logging.info("Main function of Count of elements in list program completed successfully.")
     except Exception as e:
-        logging.exception("{} is raised".format(e))
+        print("{} is raised".format(e))
 
 
 if __name__ == "__main__":
