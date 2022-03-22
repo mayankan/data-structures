@@ -3,7 +3,7 @@
     @Date: 2022-03-19
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-19
-    @Title : String Data Structure Programs - Unique sorted words in List
+    @Title: String Data Structure Programs - Unique sorted words in List
     """
 import logger
 
@@ -14,7 +14,7 @@ def unique_sorted_list(given_str_list):
     """
     Description:
         Gets unique words from given list and sorts them.
-    Parameters:
+    Parameter:
         given_str_list: Given list of words separated by comma.
     Return:
         List of unique words sorted alphanumerically converted to string.
@@ -30,9 +30,9 @@ def unique_sorted_list(given_str_list):
 def main():
     try:
         input_string = input("Enter a comma separated string of words: ")
-        logger.info("Unique words in list sorted alphanumerically:", unique_sorted_list(input_string))
+        logger.info(f"Unique words in list sorted alphanumerically: {unique_sorted_list(input_string)}")
     except Exception as e:
-        logger.error("{} is raised".format(e))
+        logger.error(f"{e} is raised")
 
 
 if __name__ == "__main__":
