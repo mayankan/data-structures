@@ -3,7 +3,7 @@
     @Date: 2022-03-19
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-19
-    @Title : String Data Structure Programs - Add ing or ly as per string
+    @Title: String Data Structure Programs - Add ing or ly as per string
     """
 import logger
 
@@ -14,9 +14,9 @@ def add_ing_ly(given_string):
     """
     Description:
         Adds 'ing' to a string with more than 2 characters and adds 'ly' if it contains 'ing' already
-    Parameters :
+    Parameter:
         given_string: Given string given by user.
-    Return :
+    Return:
         String after adding suffix 'ly' and 'ing' if 'ing' is already present in given string.
     """
     str_len = len(given_string)
@@ -30,9 +30,9 @@ def add_ing_ly(given_string):
 def main():
     try:
         sample_string = input("Enter a string : ")
-        logger.info("String after adding suffix:", add_ing_ly(sample_string))
+        logger.info("String after adding suffix: {add_ing_ly(sample_string)}")
     except Exception as e:
-        logger.error("{} is raised".format(e))
+        logger.error(f"{e} is raised")
 
 
 if __name__ == "__main__":
