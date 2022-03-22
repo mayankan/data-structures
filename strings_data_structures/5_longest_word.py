@@ -3,7 +3,7 @@
     @Date: 2022-03-19
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-19
-    @Title : String Data Structure Programs - Print Longest Word in String List
+    @Title: String Data Structure Programs - Print Longest Word in String List
     """
 import logger
 
@@ -12,9 +12,9 @@ logger = logger.logging_init('longest_word')
 
 def longest_word(word_list):
     """
-    Description :
+    Description:
         Searches the longest word in a given list of words and returns the word, and it's length.
-    Parameters :
+    Parameter:
         word_list: Given list of words in which the longest word is to be fetched.
     Return:
         Word with the longest length amongst the given list of words along with the length of that word.
@@ -34,11 +34,11 @@ def longest_word(word_list):
 def main():
     try:
         sample_list = ["blueberry", "pineapple", "orange", "pie"]
-        logger.info("Word List:", sample_list)
+        logger.info(f"Word List: {sample_list}")
         word_str, word_len = longest_word(sample_list)
-        logger.info("Longest Word in List: {} and it's length: {}".format(word_str, word_len))
+        logger.info(f"Longest Word in List: {word_str} and it's length: {word_len}")
     except Exception as e:
-        logger.error("{} is raised".format(e))
+        logger.error(f"{e} is raised")
 
 
 if __name__ == "__main__":
