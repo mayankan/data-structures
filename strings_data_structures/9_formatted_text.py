@@ -3,7 +3,7 @@
     @Date: 2022-03-19
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-19
-    @Title : String Data Structure Programs - Formatted text within limit of 50 characters
+    @Title: String Data Structure Programs - Formatted text within limit of 50 characters
     """
 import textwrap
 import logger
@@ -24,15 +24,14 @@ def display_formatted_text(given_string):
     return textwrap.fill(given_string, width=50)
 
 
-
 def main():
     try:
         sample_text = "Python is a widely used high-level, general-purpose, interpreted,dynamic programming language." \
-        "Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in " \
-        "fewer lines of code than possible in languages such as C++ or Java."
+                      "Its design philosophy emphasizes code readability, and its syntax allows programmers to " \
+                      "express concepts in fewer lines of code than possible in languages such as C++ or Java."
         logger.info(display_formatted_text(sample_text))
     except Exception as e:
-        logger.error("{} is raised".format(e))
+        logger.error(f"{e} is raised")
 
 
 if __name__ == "__main__":
