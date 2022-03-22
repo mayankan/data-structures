@@ -3,7 +3,7 @@
     @Date: 2022-03-19
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-19
-    @Title : String Data Structure Programs - Lowercase n characters in String
+    @Title: String Data Structure Programs - Lowercase n characters in String
     """
 import logger
 
@@ -27,9 +27,9 @@ def main():
     try:
         input_string = input("Enter a string: ")
         no_of_char = int(input("Enter the first n characters that is to be shifted to lowercase: "))
-        logger.info("String after conversion:", lower_first_char(input_string, no_of_char))
+        logger.info(f"String after conversion: {lower_first_char(input_string, no_of_char)}")
     except Exception as e:
-        logger.error("{} is raised".format(e))
+        logger.error(f"{e} is raised")
 
 
 if __name__ == "__main__":
