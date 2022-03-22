@@ -1,6 +1,22 @@
+"""
+    @Author: Mayank Anand
+    @Date: 2022-03-22
+    @Last Modified by: Mayank Anand
+    @Last Modified time: 2022-03-22
+    @Title : String Data Structure Programs - Logger Function to create log file
+    """
 import logging
 
+
 def logging_init(name):
+    """
+    Description:
+        Logs Output for called instance function to two log files and console stream.
+    Parameter:
+        name: Given Name of the file from where this function is called.
+    Return:
+        logger which holds the value of logging function when called, creates wo log files and console stream.
+    """
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
 
