@@ -3,7 +3,7 @@
     @Date: 2022-03-17
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-17
-    @Title : String Data Structure Programs - Length of String
+    @Title: String Data Structure Programs - Length of String
     """
 import logger
 
@@ -12,9 +12,9 @@ logger = logger.logging_init('len_string')
 
 def string_length(given_string):
     """
-    Description :
+    Description:
         Calculates the length of the string and return it.
-    Parameters :
+    Parameter:
         given_string: Given string whose length is to be calculated.
     Return:
         Returns length of the string.
