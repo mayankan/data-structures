@@ -3,7 +3,7 @@
     @Date: 2022-03-17
     @Last Modified by: Mayank Anand
     @Last Modified time: 2022-03-17
-    @Title : String Data Structure Programs - String's first character occurrences replacement
+    @Title: String Data Structure Programs - String's first character occurrences replacement
     """
 import logger
 
@@ -21,7 +21,7 @@ def replace_second_char(given_string):
         Resultant string with second and further occurrences of a first character in given string replaced with '$'.
     """
     first_char = given_string[0]
-    result_string = given_string.replace(first_char,'$')
+    result_string = given_string.replace(first_char, '$')
     result_string = first_char + result_string[1:]
     return result_string
 
@@ -29,10 +29,11 @@ def replace_second_char(given_string):
 def main():
     try:
         sample_string = "restart"
-        logger.info("Given String:", sample_string)
-        logger.info("String after replacement of first character occurrences with $:", replace_second_char(sample_string))
+        logger.info(f"Given String: {sample_string}")
+        logger.info(f"String after replacement of first character occurrences with $: "
+                    f"{replace_second_char(sample_string)}")
     except Exception as e:
-        logger.error("{} is raised".format(e))
+        logger.error(f"{e} is raised")
 
 
 if __name__ == "__main__":
